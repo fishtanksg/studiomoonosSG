@@ -12,7 +12,7 @@
         
         allowLocalhostAsSecureOrigin: true,
         appId: "3c3d6636-8648-4994-8c79-92da1cc22fa0", //main
-        serviceWorkerParam: { scope: "/studiomoonos fishtank/" },
+        serviceWorkerParam: { scope: "/studiomoonosSG/" },
         //serviceWorkerParam: { scope: "/studiomoonos/" },
         path: "OneSignalSDKWorker.js", // this always set to OneSignalSDKWorker.js by server config
         notifyButton: {
