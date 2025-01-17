@@ -8,9 +8,9 @@
     OneSignalDeferred.push(async function (OneSignal) {
       //OneSignal.setConsentRequired(true);
       await OneSignal.init({
-        //appId: "380dc082-5231-4cc2-ab51-a03da5a0e4c2", // testing
+        
         allowLocalhostAsSecureOrigin: true,
-        appId: "b58dc388-966a-4b2e-a4b1-ed21611ca8e8", //main
+        appId: "3c3d6636-8648-4994-8c79-92da1cc22fa0", //main
         serviceWorkerParam: { scope: "/studiomoonos/" },
         path: "OneSignalSDKWorker.js", // this always set to OneSignalSDKWorker.js by server config
         notifyButton: {
